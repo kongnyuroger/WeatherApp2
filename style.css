@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
+}
+.card
+{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.829);
+    color: white;
+    position: relative;
+    margin: 1em;
+    padding: 2rem ;
+    border-radius: 30px;
+}
+
+.card .search
+{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.card button
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    padding: 3px;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    transition: 0.5s  ease-in-out;
+}
+.card button:hover
+{
+    background: #7c7c7c73;
+}
+.card button i
+{
+    font-size: 25px;
+    color: white;
+}
+
+.card input
+{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-size: 105%;
+    width: calc(100% - 50px);
+}
+
+h1.temp
+{
+    margin: 0;
+}
